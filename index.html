@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles.css" />
+    <
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts Links -->
+
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="bg-circle"></div>
+      <div class="main-content">
+        <img src="/imgs/img-1.png" alt="computer illustration" class="image" />
+
+        <div class="login-section">
+          <h1 class="h1-heading">Save your account now!</h1>
+
+          <p class="para-text">
+            Get unlimited typeforms, questions and responses. <br />
+            Free forever.
+          </p>
+
+          <form action="#" class="form-body">
+            <div class="form-group">
+              <svg class="icon">
+                <use xlink:href="../imgs/sprite.svg#icon-user-outline"></use>
+              </svg>
+              <label for="name" class="form-label">Name or nickname </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                class="form-input"
+              />
+            </div>
+            <div class="form-group">
+              <svg class="icon">
+                <use xlink:href="../imgs/sprite.svg#icon-mail"></use>
+              </svg>
+              <label for="email" class="form-label">Email </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                class="form-input"
+              />
+            </div>
+            <div class="form-group">
+              <svg class="icon">
+                <use
+                  xlink:href="../imgs/sprite.svg#icon-lock-closed-outline"
+                ></use>
+              </svg>
+              <label for="password" class="form-label">Password </label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+                class="form-input"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="submit"
+                value="Sign up  &rsaquo;"
+                class="form-submit"
+              />
+            </div>
+          </form>
+
+          <div class="login-message">
+            <p class="para-text">
+              Already have an account?
+              <span><a class="login-word" href="#">Login</a> </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

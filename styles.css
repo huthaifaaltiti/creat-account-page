@@ -1,0 +1,181 @@
+/* SECTOR */
+/* Main */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --color-primary-1: #71b5b6;
+  --color-primary-2: #88cac9;
+ 
+
+  --color-grey-light-1: #e9ecef;
+  --color-grey-light-2: #dee2e6;
+  --color-grey-light-3: #ced4da;
+
+  --color-grey-dark-1: #999;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #333;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light-1: 0 10px 6px -6px rgba(0, 0, 0, 0.3);
+  --shadow-light-2: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  --shadow-light-3: 0 1rem 2rem rgba(0, 0, 0, 0.02);
+
+  --font-primary: "Be Vietnam Pro", sans-serif;
+  --font-display-1: "Comfortaa", Display;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-primary-1);
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+/* SECTOR */
+/* Main */
+
+.main-container {
+  position: relative;
+}
+
+.bg-circle {
+  width: 500rem;
+  height: 500rem;
+  border-radius: 500rem;
+
+  background-color: #fff;
+
+  position: absolute;
+  top: -300rem;
+  right: -350rem;
+
+  opacity: 0.3;
+}
+
+.main-content {
+  width: 90%;
+  height: 80vh;
+
+  background-color: #fff;
+
+  margin: 8rem auto;
+
+  display: flex;
+  gap: 3rem;
+}
+
+.image {
+  width: 50%;
+  height: 100%;
+}
+
+.login-section {
+  width: 50%;
+  height: 100%;
+
+  /* background-color: red; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-heading {
+  font-size: 3.6rem;
+}
+
+.para-text {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+
+  text-align: center;
+}
+
+.form-body {
+  /* background-color: red; */
+  width: 60%;
+  margin: 1rem 0;
+}
+
+.form-label {
+  color: var(--color-grey-dark-2);
+  /* background-color: yellow; */
+  display: block;
+  width: 100%;
+
+  font-size: 1.6rem;
+
+  margin-left: 3rem;
+}
+
+.form-group {
+  position: relative;
+
+  margin: 3rem 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+
+  fill: var(--color-grey-light-4);
+
+  position: absolute;
+  left: 0;
+}
+
+.form-input {
+  height: 3rem;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--color-grey-light-1);
+}
+
+.form-submit {
+  font-size: 1.4rem;
+  text-align: center;
+
+  padding: 1rem 3rem;
+
+  border-radius: 10rem;
+  border: none;
+
+  background-color: var(--color-primary-1);
+  color: #fff;
+
+  align-self: center;
+}
+
+.login-word:link,
+.login-word:visited {
+  display: inline-block;
+
+  color: #f77b55;
+  text-decoration: none;
+}
+
+.login-word:hover,
+.login-word:active {
+  text-decoration: underline;
+  cursor: pointer;
+
+  display: inline-block;
+}
